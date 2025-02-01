@@ -8,7 +8,7 @@ This is a simple PHP-based public API that returns the following information in 
 
 ## API Endpoint
 
-**GET** `https://yourdomain.com/api.php`
+**GET** `https://info-api-tan.vercel.app/`
 
 ## Response Format
 
