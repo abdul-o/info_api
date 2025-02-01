@@ -1,10 +1,12 @@
 <?php
 header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
+header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, X-Request-With');
+header('Access-Control-Allow-Credentials: true');
 header("Content-Type: application/json; charset=UTF-8");
 
 
-
-$age = [
+$information = [
     "email" => "abdullateefdauda01@gmail.com", 
     "current_datetime" => gmdate('Y-m-d\TH:i:s\Z'), 
     "github_url" => "https://github.com/abdul-o/info_api.git", 
