@@ -14,7 +14,4 @@ $information = [
 http_response_code(200);
 echo json_encode($information, JSON_PRETTY_PRINT);
 
-
-
-
 ?>
