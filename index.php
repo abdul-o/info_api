@@ -12,6 +12,6 @@ $response = [
     "github_url" => "https://github.com/abdul-o/info_api.git", 
 ];
 http_response_code(200);
-echo json_encode($response, JSON_PRETTY_PRINT);
+echo json_encode($response, JSON_UNESCAPED_SLASHES);
 
 ?>
