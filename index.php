@@ -6,12 +6,12 @@ header('Access-Control-Allow-Credentials: true');
 header("Content-Type: application/json; charset=UTF-8");
 
 
-$information = [
+$response = [
     "email" => "abdullateefdauda01@gmail.com", 
     "current_datetime" => gmdate('Y-m-d\TH:i:s\Z'), 
     "github_url" => "https://github.com/abdul-o/info_api.git", 
 ];
 http_response_code(200);
-echo json_encode($information, JSON_PRETTY_PRINT);
+echo json_encode($response, JSON_PRETTY_PRINT);
 
 ?>
